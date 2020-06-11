@@ -1,2 +1,2 @@
-#!/bin/bash
-cpp circulo.c
+#!/bin/bas
+gcc -E $CFILE -o c
