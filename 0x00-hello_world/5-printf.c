@@ -1,7 +1,14 @@
 #include <stdio.h>
+/**
+ *
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
+ *
+ */
 
 int main(voin)
 {
-	printf("with proper grammar, but the outcome, a piece of art / n");
+	printf("with proper grammar, but the outcome a piece of art,/ n");
 	return (0);
 }
