@@ -1,10 +1,15 @@
 i!/bin/bash
 #include <stdio.h>
+#include <string.h>
 
-main()
+init main()
 {
-	puts( "Programming is like building a multilingual puzzle");
 	
-	return 0;
+	char str [100]
+		;
+	puts(str, "Programming is like building a multilingual puzzle");
 	
+	puts(str);
+
+	return 0;	
 }
