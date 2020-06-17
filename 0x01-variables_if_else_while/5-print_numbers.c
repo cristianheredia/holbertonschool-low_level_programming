@@ -13,8 +13,9 @@ int main(void)
 	while (contador <= 9)
 
 	{
-		printf("%d ", contador);
+		printf("%d", contador);
 		contador++;
 	}
+	printf("\n");
 	return (0);
 }
