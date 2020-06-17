@@ -8,8 +8,6 @@ int main(void)
 {
 	int contador;
 
-	printf("\n");
-
 	contador = 0;
 
 	while (contador <= 9)
