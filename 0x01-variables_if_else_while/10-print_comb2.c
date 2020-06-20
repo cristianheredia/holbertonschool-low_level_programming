@@ -27,7 +27,7 @@ int main(void)
 			if (i != 57 || j != 57)
 
 				putchar(',');
-				putchar(' ');
+				putchar(32);
 		}
 
 	putchar('\n');
