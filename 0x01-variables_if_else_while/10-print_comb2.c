@@ -1,25 +1,17 @@
 #include <stdio.h>
-
 /**
-  *main - Entry point
-  *
-  *Return: Always 0 (Success)
-  */
-
+*main - Entry point
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 
 	int i;
-
-	for (i = 48; i <= 57; i++)
-
-	{
+	for (i = 48; i <= 57; i++) {
 
 		int j;
-
-		for (j = 48; j <= 57; j++)
-
-		{
+		for (j = 48; j <= 57; j++) {
 
 			putchar(i);
 			putchar(j);
@@ -28,11 +20,10 @@ int main(void)
 
 			putchar(',');
 			putchar(' ');
-
 			continue;
 		}
-
 	}
+
 	putchar('\n');
 	return (0);
 }
