@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *main - Entry point
 *
@@ -22,11 +23,12 @@ int main(void)
 			putchar(i);
 			putchar(j);
 
-			if (i != 57 || j != 57)
+			if (i == 57 && j == 57)
 
+			continue;
 			putchar(',');
 			putchar(' ');
-			continue;
+
 		}
 	}
 
