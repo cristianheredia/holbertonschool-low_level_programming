@@ -18,8 +18,8 @@ int main(void)
 		if (i == 57)
 			continue;
 
-		putchar(' ');
 		putchar(',');
+		putchar(' ');
 
 	}
 
